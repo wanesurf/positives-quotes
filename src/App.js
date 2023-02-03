@@ -9,8 +9,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const Quote = require('inspirational-quotes');
-
+  // const Quote = require('inspirational-quotes');
 
   const { Configuration, OpenAIApi } = require("openai");
 
