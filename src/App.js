@@ -8,7 +8,6 @@ import { useEffect, useState } from 'react';
 
 
 function App() {
-
   // const Quote = require('inspirational-quotes');
 
   const { Configuration, OpenAIApi } = require("openai");
@@ -16,7 +15,7 @@ function App() {
 
   const configuration = new Configuration({
 
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
 
   });
 
