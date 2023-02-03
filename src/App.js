@@ -55,7 +55,7 @@ function App() {
         </div>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/helwan-mand%C3%A9/"
           target="_blank"
           rel="noopener noreferrer"
         >
