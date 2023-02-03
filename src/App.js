@@ -1,7 +1,7 @@
 import logo from './Planete1.png';
 import './App.css';
 
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin,FaGithub } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
 
@@ -50,7 +50,7 @@ function App() {
             {/* <p className='text-3xl font-bold '>{Quote.getQuote().text}</p> */}
 
           </a>
-          <p>Powered by OpenAi</p>
+          <p className='mt-5 text-sm'>Powered by OpenAi</p>
 
         </div>
         <a
@@ -62,9 +62,18 @@ function App() {
           <div className='linkedin mt-8'>
             <FaLinkedin ></FaLinkedin>
             <p className='name'>Helwan Mandé</p>
-
+          
           </div>
         </a>
+        <a 
+          className='mt-3'
+          href="https://github.com/wanesurf/positives-quotes"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <FaGithub></FaGithub>
+        </a>
+
 
       </header>
     </div>
